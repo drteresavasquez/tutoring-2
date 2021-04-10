@@ -1,0 +1,21 @@
+#app {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+}
+
+.grow {
+  flex-grow: 4;
+  background-color: blue !important;
+}
+
+.card-text {
+  padding-top: 50px;
+}
